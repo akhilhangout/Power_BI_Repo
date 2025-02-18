@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "fb732cac3b215e2a8d92",
+  "name": "1050c9f14157e97a69a8",
   "position": {
-    "x": 9.02053625502395,
-    "y": 0,
-    "z": 0,
-    "height": 417.19980179485771,
-    "width": 1134.3324340692618,
-    "tabOrder": 0
+    "x": 0,
+    "y": 469.306174411203,
+    "z": 1,
+    "height": 250.09079031123321,
+    "width": 785.77908807665244,
+    "tabOrder": 1
   },
   "visual": {
     "visualType": "lineChart",
@@ -170,6 +170,27 @@
                 }
               }
             }
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 5,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(AMZN.Volume)"
           }
         }
       ]
